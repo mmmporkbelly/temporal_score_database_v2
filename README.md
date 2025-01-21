@@ -7,7 +7,7 @@ The temporal score database is a python script that pulls data from NVD, MITRE, 
 > Check out the [temporal score database web application](https://temporalscoredatabase.com/) to see the information that can be pulled by the script. Please keep in mind that this web app was only made to present the information that can be pulled in a UI - it is not a robust web app.
 
 ## Does it actually have an impact?
-Yes! If you agree with the calculation method (see below), the web app shows the before and after in calculations for all CVEs that are published. As of 6/13/24, here is the breakdown by the numbers:
+Yes! If you agree with the calculation method (see below), the web app shows the before and after in calculations for all CVEs that are published. As of 1/21/25, here is the breakdown by the numbers:
 
  - Critical Severity CVEs - 27538 Criticals to 604 Criticals 
  - High Severity CVEs - 106088 Highs to 63566 Highs 

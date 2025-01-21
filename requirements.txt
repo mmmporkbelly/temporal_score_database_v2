@@ -1,0 +1,12 @@
+boto3==1.35.39
+botocore==1.35.39
+cvss==3.3
+gitpython==3.1.44
+numpy==2.2.1
+openpyxl==3.1.5
+pandas==2.2.3
+python-dotenv==1.0.1
+Requests==2.32.3
+tqdm==4.67.1
+vulncheck_sdk==0.0.7
+xlsxwriter==3.2.0

@@ -1,7 +1,7 @@
 # The Temporal Score Database v2
 
-## What is the temporal score database?
-The temporal score database is a python script that pulls data from NVD, MITRE, EPSS, Nuclei, ExploitDB, Github, and Metasploit to enrich CVSS data. The database provides a daily .xlsx file which pulls from the aforementioned sources, and calculates the temporal vector, score, and severity for all CVEs published by NVD or MITRE. The main aim is to provide intelligence and clarity for all security professionals to sort through the constant noise of vulnerability disclosures. This can be used as part of the vulnerability decision tree. The database was thought of to supplement the [vulnerability decision tree.](https://github.com/mmmporkbelly/vulnerability_decision_tree/blob/main/README.md)
+## What is the Temporal Score Database?
+The temporal score database is a python script that pulls data from NVD, MITRE, EPSS, Nuclei, ExploitDB, Github, and Metasploit to enrich CVSS data. The database provides a daily .xlsx file which pulls from the aforementioned sources, and calculates the temporal vector, score, and severity for all CVEs published by NVD or MITRE. The main aim is to provide intelligence and clarity for all security professionals to sort through the constant noise of vulnerability disclosures. The database was thought of to supplement the [vulnerability decision tree.](https://github.com/mmmporkbelly/vulnerability_decision_tree/blob/main/README.md)
 
 > [!NOTE]
 > Check out the [temporal score database web application](https://temporalscoredatabase.com/) to see the information that can be pulled by the script. Please keep in mind that this web app was only made to present the information that can be pulled in a UI - it is not a robust web app.
@@ -9,10 +9,10 @@ The temporal score database is a python script that pulls data from NVD, MITRE, 
 ## Does it actually have an impact?
 Yes! If you agree with the calculation method (see below), the web app shows the before and after in calculations for all CVEs that are published. As of 1/21/25, here is the breakdown by the numbers:
 
- - Critical Severity CVEs - 27538 Criticals to 604 Criticals 
- - High Severity CVEs - 106088 Highs to 63566 Highs 
- - Medium Severity CVEs - 118591 Mediums to 157053 Mediums 
- - Low Severity CVEs - 9274 Lows to 40268 Lows 
+ - Critical Severity CVEs - 27538 Criticals to 604 Criticals (97.8% reduction)
+ - High Severity CVEs - 106088 Highs to 63566 Highs (40.1% reduction)
+ - Medium Severity CVEs - 118591 Mediums to 157053 Mediums (32.4% increase)
+ - Low Severity CVEs - 9274 Lows to 40268 Lows (334% increase)
 
 ## How is everything calculated?
 *Please keep in mind that the database is by no means a silver bullet. The point of this database is to sort through the noise by automating temporal score calculations, but it is by no means complete or perfect.*
